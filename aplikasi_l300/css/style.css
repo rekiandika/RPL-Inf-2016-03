@@ -1,0 +1,217 @@
+body {
+    background: #B0BEC5;
+}
+
+#konten {
+  background:url(../images/phone.png);
+  background-size: 400px 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding-top: 70px;
+}
+#l300{
+  margin-left: 63px;
+}
+
+#isi{
+  background: #009688;
+  margin-left: 90px;
+  width: 206px;
+  height: 364px;
+  color: #fefefe;
+  padding: 5px;
+}
+
+#isi img{
+  margin-top: 7px;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+#judul{
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+#isi-body{
+  color: #009688;
+  margin-top: 10px;
+  padding: 1px;
+  background: #fefefe;
+  width: 100%;
+  height: 320px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+}
+
+
+#isi-body p{
+  text-align: center;
+}
+
+.rek-kiri{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.rek-kanan{
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+
+.tombol{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.7em;
+  cursor: pointer;
+}
+
+.cari{
+  padding: 7px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 0.7em;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+  left: 65px;
+}
+
+.pesan1{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.5em;
+  cursor: pointer;
+  position: relative;
+  top: -149px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+.pesan2{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.5em;
+  cursor: pointer;
+  position: relative;
+  top: -123px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+ .pesan3{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.5em;
+  cursor: pointer;
+  position: relative;
+  top: -98px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+ .pesan4{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.5em;
+  cursor: pointer;
+  position: relative;
+  top: -74px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+
+/* -- form styles ----------------------------------- */
+.form-label {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+.form-label2 {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  font-size: 0.7em;
+}
+
+.input-group {
+  display: table;
+  border-collapse: separate;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 90%;
+  margin-left: 5%;
+}
+.input-field {
+  height: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+
+.resizedTextbox {
+	width: 125px; height: 15px
+}
+.hasil-cari{
+	color: #000000;
+	font-size: 0.7em;
+}
+
+.bangku{
+	margin-left: 9px;
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+
+.smallfont{
+	font-size:0.7em;
+}
+
+.pesanbangku{
+  padding: 7px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 1.0em;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+
+.batal{
+  padding: 6px 53px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 1.0em;
+  cursor: pointer;
+  position: relative;
+  top: 25px;
+}
+/* -- input styles ----------------------------------- */
+#isi-body form input[type="text"]{
+  background-color: rgba(2, 2, 2, 0.07);
+  color: #009688;
+}
+#isi-body form input[type="text"]:hover{
+  background-color: #B2DFDB;
+  color: #fefefe;
+  outline-color: #009688;
+}
+#isi-body form input[type="text"]:focus {
+  background-color: #ecf0f1;
+  color: black;
+  outline-color: #009688;
+}
+#isi-body form input[type="text"]:valid {
+  color: #009688;
+  outline-color: #009688;
+}

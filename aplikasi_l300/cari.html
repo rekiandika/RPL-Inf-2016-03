@@ -1,35 +1,59 @@
-<html>
-	<head>
-		<title>
-			Pencarian
-		</title>
-	</head>
-	<center>
-		<form name="pemesanan" method="POST" action="" id="formpemesanan">
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>L300KU</title>    
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+      function menu(){
+        alert("MENU");
+      }
+    </script>
+  </head>
+  <body>
+    <div id="konten">
+      <div id="isi">
+         <img onclick="menu()" src="images/menu.png" alt="L300KU" height="30" width="30"> <div id="judul"> L300KU</div>
+         <div id="isi-body">
+		 <br>
+            <center><span style="font-size: 1.0em;"><font face="arial"><b>PENCARIAN</b></font></span></center>
+            <br>
 			<table>
+            <form action="" method="post" role="form">
+                <div id="form-login-username" class="input-group">
 				<tr>
-					<td>DARI</td>
-					<td><input type="text" size="16" name="asal" required></td>
+				<td><span class="form-label2">DARI</span><td>
+                  <td><input id="username" class="resizedTextbox" name="username" type="text" size="14" alt="username" required />
+                </td></div>
 				</tr>
-				
+                <div id="form-login-username" class="input-group">
 				<tr>
-					<td>TUJUAN</td>
-					<td><input type="text" size="16" name="nama" required></td>
+				<td><span class="form-label2">TUJUAN</span><td>
+                  <td><input id="username" class="resizedTextbox" name="username" type="text" size="14" alt="username" required />
+                </td></div>
 				</tr>
-				
+                <div id="form-login-username" class="input-group">
 				<tr>
-					<td>TANGGAL</td>
-					<td><input type="date" name="tanggal" required></td>
+				<td><span class="form-label2">TANGGAL</span><td>
+                  <td><input id="username" class="resizedTextbox" name="username" type="date" size="14" alt="username" required />
+                </td></div>
 				</tr>
-				<tr>
-					<td colspan="1"></td>
-					<td>
-						<input type="submit" value="CARI" onclick="parent.location='hasil.html'">
-					</td>
-			</table>
-		</form>
-		<center><input type="submit" value="RIWAYAT PEMESANAN"></center>
-		</center>
-	</body>
+				</table>
+                <center>
+                  <span class="cari"><a href="hasil.html" style="color:white">CARI</a></span>
+                </center>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+                <center>
+                  <span class="tombol"><a href="#" style="color:white">RIWAYAT PEMESANAN</span>
+                </center>
 
+			</form>
+         </div>
+      </div>
+    </div>
+  </body>
 </html>
