@@ -1,0 +1,51 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+body {
+background-color: #009688;
+font-family: Arial;
+padding: 40px;
+}
+
+.login-screen {
+margin: 5px auto;
+width: 500px;
+background-color: #ffffff;
+padding: 1px;
+border-radius: 1px;
+}
+
+.app-title {
+text-align: center;
+color: #009688;
+}
+
+.login-form {
+text-align: center;
+}
+
+.btn {
+  border: 5px solid transparent;
+  background: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-family: Arial Black;
+  line-height: 50px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 1px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #4db6ac;
+}
