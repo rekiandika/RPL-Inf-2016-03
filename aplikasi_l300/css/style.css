@@ -85,6 +85,23 @@ body {
   left: 65px;
 }
 
+.savepic{
+  padding: 7px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 0.7em;
+  cursor: pointer;
+  position: relative;
+  top: 180px;
+}
+
+.profpic{
+  margin-top: 7px;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+
 .pesan1{
   padding: 7px;
   color: #fefefe;
