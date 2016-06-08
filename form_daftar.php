@@ -4,10 +4,21 @@
 		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
 	</head>
 	
-	<body>
+	<body style="background-color:#009688">
+		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.min.css" />
+		
 	<div class="jumbotron">
-    		<h1 style = "text-align: center">Daftar</h1>
+    		<h1 <font size=40 color=black face=timesnewroman>L300Ku</font></h1>
+			<div class="form-group">
+			<div class="col-xs-offset-10 col-xs-10">
+			</div>
+		</div>
 	</div>
+	
+	<h1 style = "text-align: center">Daftar</h1>
+	<br></br>
+	
 	<div class = "container">
 	<div class = "row">
 	<div class = "col-xs-offset-2 col-xs-8">
@@ -17,8 +28,15 @@
 		    <div class="form-group">
             <label class="control-label col-xs-2">Rute</label>
             <div class="col-xs-10">
-                <input type="text" name="nama_mhs" placeholder="Masukkan Rute" class="form-control" size="30" required="required"><br>
-            </div>
+            <select>
+			<optgroup label="Rute Perjalanan">
+			<option>Banda Aceh-Sigli</option>
+			<option>Banda Aceh-Bireun</option>
+			<option>Banda Aceh-Lhokseumawe</option>
+			<option>Banda Aceh-Langsa</option>
+			<option>Banda Aceh-Takengon</option>
+			</select>
+			</div>
         </div>
 		
 		<div class="form-group">
@@ -70,19 +88,9 @@
 			<?php
 			if (isset($_POST["nim_mhs"])){
 				
-				require_once 'Koneksi.php';
+				$sql =  "berhasil";
 				
-				$nama =  $_POST["nama_mhs"];
-				$nim = $_POST["nim_mhs"];
-				$tl = $_POST["tgl_mhs"];
-				$pass = md5($_POST["pass_mhs"]);
-				$email = $_POST ["email_mhs"];
-				$Pembayaran = $_POST["false"];
-				
-				$sql =  "INSERT INTO pengguna VALUES ('$nama', '$nim', '$tl', '$pass', '$email','$Pembayaran')";
-				
-				if($db->query($sql)){
-					echo 'Data Berhasil Disimpan';
+				if($sql=="berhasil"){
 					header("location:form_login.php");
 				}else{
 					echo 'Error : ' . $db->error;
