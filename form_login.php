@@ -1,16 +1,18 @@
 <html>
 	<head>
-		<title>Log In</title>
+		<title>Log In Admin</title>
+		<link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+		<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 	</head>
 	<body style="background-color:#009688">
 		<link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="./assets/css/font-awesome.min.css" />	
 	
 	<div class="jumbotron">
-    		<h1 <font size=40 color=black face=timesnewroman>L300Ku</font></h1>
+    		<center><h1 <font size=40 color=black face=timesnewroman>L300Ku</font></h1></center>
 			<div class="form-group">
 			</div>
-		</div>
+	</div>
 	
 	<center>
 	<h1>Log In</h1>
@@ -51,8 +53,7 @@
 				$hasil =("berhasil");
 				
 				if($hasil=="berhasil"){
-					$_SESSION['npm']=$npm;
-					header("location:daftar_penumpang.html");
+					header("location:daftar_penumpang.php");
 				}else{
 					echo 'Periksa NPM atau Password Anda';
 				}
