@@ -204,21 +204,17 @@ a:hover,a:link {
   font-weight: 300;
 }
 
-#isi-body form input[type="text"]{
-  background-color: rgba(2, 2, 2, 0.07);
-  color: #009688;
+.panelfoto{
+  width: 150px;
+  height: 130px;
+  background: #00897B;
+  padding-left: 15px;
+  padding-top: 15px;
 }
-#isi-body form input[type="text"]:hover{
-  background-color: #B2DFDB;
+
+.panelnama{
+  text-align: center;
   color: #fefefe;
-  outline-color: #009688;
-}
-#isi-body form input[type="text"]:focus {
-  background-color: #ecf0f1;
-  color: black;
-  outline-color: #009688;
-}
-#isi-body form input[type="text"]:valid {
-  color: #009688;
-  outline-color: #009688;
+  background: #00897B;
+  padding-bottom: 10px;
 }
