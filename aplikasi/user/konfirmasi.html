@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>L300KU</title>    
+    <link rel="stylesheet" href="../css/style2.css">
+    <script type="text/javascript">
+      function kirim(){
+        alert("Data Telah Terkirim")
+      }
+      function menu(){
+        alert("MENU");
+      }
+    </script>
+  </head>
+
+  <body>
+    <div id="konten">
+      <div id="isi">
+         <img onclick="menu()" src="../images/menu.png" alt="L300KU" height="30" width="30"> <div id="judul"> L300KU</div>
+         <div id="isi-body">
+            <center><h3 style="font-size: 0.8em;"><b>KONFIRMASI PEMBAYARAN</b></h3></center>
+            <br>
+            <form action="" method="post" role="form">
+                <span class="form-label">NAMA</span>
+                <div id="form-login-username" class="input-group">
+                  <input id="username" class="input-field" name="username" type="text" size="18" alt="username" required />
+                </div>
+                <span class="form-label">TANGGAL</span>
+                <div id="form-login-username" class="input-group">
+                  <input id="username" class="input-field" name="username" type="text" size="18" alt="username" required />
+                </div>
+                <span class="form-label">NO.REK PENGIRIM</span>
+                <div id="form-login-username" class="input-group">
+                  <input id="username" class="input-field" name="username" type="text" size="18" alt="username" required />
+                </div>
+                <span class="form-label">NO.REK TUJUAN</span>
+                <div id="form-login-username" class="input-group">
+                  <input id="username" class="input-field" name="username" type="text" size="18" alt="username" required />
+                </div>
+                <span class="form-label">JUMLAH UANG</span>
+                <div id="form-login-username" class="input-group">
+                  <input id="username" class="input-field" name="username" type="text" size="18" alt="username" required />
+                </div>
+                <br><br><br>
+                <center>
+                  <span style="font-size: 0.8em;" onclick="kirim()" class="tombol">KIRIM</span>
+                </center>
+             </form>
+         </div>
+      </div>
+    </div>
+  </body>
+</html>
