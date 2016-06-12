@@ -218,3 +218,37 @@ a:hover,a:link {
   background: #00897B;
   padding-bottom: 10px;
 }
+
+.hijau{
+  background: #009688;
+}
+
+.merah{
+  background: #F44336;
+}
+
+.biru{
+  background: #2196F3;
+}
+
+.info{
+  margin: 10px;
+  height: 50px;
+}
+
+.info-header{
+  float: left;
+  color: #fefefe;
+  text-align: center;
+  height: 50px;
+  width: 60px;
+}
+
+.info-isi{
+  background: #FFF3E0;
+  height: 50px;
+  width: 150px;
+  float: right;
+  color: #263238;
+  padding-left: 10px;
+}
