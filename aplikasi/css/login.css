@@ -1,0 +1,430 @@
+HEAD
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+body {
+background-color: #009688;
+font-family: Arial;
+padding: 50px;
+}
+.login {
+margin: 20px auto;
+width: 300px;
+}
+.login-screen {
+background-color: #e0f2f1;
+padding: 30px;
+border-radius: 1px
+}
+
+.app-title {
+text-align: center;
+color: #26a69a;
+}
+
+.login-form {
+text-align: center;
+}
+
+.control-group {
+margin-bottom: 10px;
+}
+
+input {
+text-align: center;
+background-color: #fafafa;
+color: #b2dfdb;
+border: 2px solid transparent;
+border-radius: 3px;
+font-size: 18px;
+font-weight: 200;
+padding: 10px 0;
+width: 230px;
+transition: border .5s;
+}
+
+input:focus {
+border: 2px solid #3498DB;
+box-shadow: none;
+}
+
+.btn {
+  border: 5px solid transparent;
+  background: #009688;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #26a69a;
+}
+
+.login-link {
+  font-size: 12px;
+  color: #444;
+  display: block;
+	margin-top: 12px;
+
+body {
+    background: #B0BEC5;
+}
+
+#konten {
+  background:url(../images/phone.png);
+  background-size: 460px 640px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 460px;
+  height: 640px;
+  margin: 0 auto;
+  padding-top: 70px;
+<<<<<<< HEAD:aplikasi_l300/css/style.css
+  margin-top: 30px;
+=======
+>>>>>>> bbd88fea152b0882e61fad2a79bf5e455a5d61ac:aplikasi/css/login.css
+}
+
+#isi{
+  background: #009688;
+  margin-left: 105px;
+  width: 245px;
+  height: 435px;
+  color: #fefefe;
+  padding: 5px;
+}
+
+#isi img{
+  margin-top: 7px;
+  margin-left: 10px;
+  float: left;
+  cursor: pointer;
+}
+
+#l300{
+  margin-left: 80px;
+}
+
+#info a{
+  position: relative;
+  color: #fefefe;
+  float: right;
+  margin-top: 13px;
+  margin-right: 20px;
+}
+
+#btn-hp {
+  position: relative;
+  font-size: 1.7em;
+}
+
+.set{
+  float: left;
+  margin-top: 20px;
+  margin-left: 140px;
+  color: #009688;
+}
+
+.set:hover{
+  opacity: 0.5;
+}
+
+.back{
+  float: right;
+  margin-top: 23px;
+  margin-right: 140px;
+  color: #009688;
+}
+
+.back:hover{
+  opacity: 0.5;
+}
+
+#judul{
+  color: #fefefe;
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+#judul:hover{
+  opacity: 0.5;
+}
+
+#isi-body{
+  color: #009688;
+  margin-top: 10px;
+  padding: 1px;
+  width: 100%;
+  height: 380px;
+}
+
+.kontainer {
+  height: 100%;
+  width: 100%;
+}
+
+.mobile-holder {
+  height: 100%;
+  overflow: hidden;
+  background-color: #445369;
+}
+
+.menu{
+  position: absolute;
+  z-index: 1;
+}
+
+.btn-menu {
+  text-align: center;
+  margin-bottom: 1px;
+  padding: 7px;
+  color: #fefefe;
+  background: #78909C;
+  font-size: 0.9em;
+  cursor: pointer;
+  width: 150px;
+}
+
+.btn-menu:hover {
+  opacity: 0.7;
+}
+
+a:hover,a:link {
+  text-decoration: none;
+}
+
+
+.page-body {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  transform-origin: 0 0;
+  background: #fefefe;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+<<<<<<< HEAD:aplikasi_l300/css/style.css
+.page-body.open {
+  transform: translateX(150px);
+}
+
+=======
+>>>>>>> bbd88fea152b0882e61fad2a79bf5e455a5d61ac:aplikasi/css/login.css
+#isi-body p{
+  text-align: center;
+}
+
+.rek-kiri{
+  text-align: center;
+  float: left;
+  width: 50%;
+}
+
+.rek-kanan{
+  text-align: center;
+  float: right;
+  width: 50%;
+}
+.btn-app {
+  font-size: 0.8em;
+  padding: 7px;
+  background: #009688;
+  color: #fefefe;
+}
+
+.btn-app:hover{
+  color: #fefefe;
+  background: #009688;
+  opacity: 0.6;
+}
+
+<<<<<<< HEAD:aplikasi_l300/css/style.css
+.btn-akun {
+  text-align: center;
+  margin: 5px;
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.btn-akun:hover{
+  background: #009688;
+  opacity: 0.6;
+}
+
+.form-label {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+=======
+/* -- form styles ----------------------------------- */
+.form-label {
+  margin-left: 5%;
+  margin-bottom: 10px;
+  font-size: 0.7em;
+>>>>>>> bbd88fea152b0882e61fad2a79bf5e455a5d61ac:aplikasi/css/login.css
+}
+.input-group {
+  display: table;
+  border-collapse: separate;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  width: 90%;
+  margin-left: 5%;
+}
+.input-field {
+  height: 20px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 1em;
+  font-weight: 300;
+}
+<<<<<<< HEAD:aplikasi_l300/css/style.css
+
+.panelfoto{
+  width: 150px;
+  height: 130px;
+  background: #00897B;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.panelnama{
+  text-align: center;
+  color: #fefefe;
+  background: #00897B;
+  padding-bottom: 10px;
+}
+.hasil-cari{
+	color: #000000;
+	font-size: 0.7em;
+}
+.pesan1{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.6em;
+  cursor: pointer;
+  position: relative;
+  top: -149px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+.pesan2{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.6em;
+  cursor: pointer;
+  position: relative;
+  top: -123px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+ .pesan3{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.6em;
+  cursor: pointer;
+  position: relative;
+  top: -98px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+ .pesan4{
+  padding: 7px;
+  color: #fefefe;
+  background: #009688;
+  font-size: 0.6em;
+  cursor: pointer;
+  position: relative;
+  top: -74px;
+  left: 72px;
+  padding: 5px 10px;
+  }
+.bangku{
+	margin-left: 9px;
+	margin-top: 5px;
+	font-size: 0.9em;
+}
+
+.pesanbangku{
+  padding: 7px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 1.0em;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+
+.batal{
+  padding: 6px 48px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 1.0em;
+  cursor: pointer;
+  position: relative;
+  top: 25px;
+}
+
+.savepic{
+  padding: 7px;
+  color: #ffffff;
+  background: #009688;
+  font-size: 0.7em;
+  cursor: pointer;
+  position: relative;
+  top: 180px;
+}
+
+#profpic{
+background:url(readURL(this)) no-repeat center center;
+height:200px;
+width:200px;
+=======
+/* -- input styles ----------------------------------- */
+#isi-body form input[type="text"]{
+  background-color: rgba(2, 2, 2, 0.07);
+  color: #009688;
+}
+#isi-body form input[type="text"]:hover{
+  background-color: #B2DFDB;
+  color: #fefefe;
+  outline-color: #009688;
+}
+#isi-body form input[type="text"]:focus {
+  background-color: #ecf0f1;
+  color: black;
+  outline-color: #009688;
+}
+#isi-body form input[type="text"]:valid {
+  color: #009688;
+  outline-color: #009688;
+>>>>>>> 048f870ab8d44a4034662127e1f5f656873f1a98
+>>>>>>> bbd88fea152b0882e61fad2a79bf5e455a5d61ac:aplikasi/css/login.css
+}
