@@ -222,6 +222,7 @@ a:hover,a:link {
   background: #00897B;
   padding-bottom: 10px;
 }
+
 .hasil-cari{
 	color: #000000;
 	font-size: 0.7em;
@@ -310,4 +311,38 @@ a:hover,a:link {
 background:url(readURL(this)) no-repeat center center;
 height:200px;
 width:200px;
+}
+
+.hijau{
+  background: #009688;
+}
+
+.merah{
+  background: #F44336;
+}
+
+.biru{
+  background: #2196F3;
+}
+
+.info{
+  margin: 10px;
+  height: 50px;
+}
+
+.info-header{
+  float: left;
+  color: #fefefe;
+  text-align: center;
+  height: 50px;
+  width: 60px;
+}
+
+.info-isi{
+  background: #FFF3E0;
+  height: 50px;
+  width: 150px;
+  float: right;
+  color: #263238;
+  padding-left: 10px;
 }
