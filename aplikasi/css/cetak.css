@@ -1,0 +1,62 @@
+* {
+box-sizing: border-box;
+}
+
+*:focus {
+	outline: none;
+}
+
+body {
+background-color: #009688;
+font-family: Arial;
+padding: 40px;
+}
+
+.login-screen {
+margin: 6px auto;
+width: 300px;
+background-color: #ffffff;
+padding: 1px;
+border-radius: 1px;
+line-height: 30px;
+font-size: 14px;
+}
+
+.text-title{
+text-align: center;
+color: #009688;
+
+}
+
+.app-title {
+text-align: center;
+color: #000;
+padding-bottom: 10px;
+
+}
+
+.login-form {
+text-align: center;
+
+}
+
+.btn {
+  border: 5px solid transparent;
+  background: #009688;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 5px;
+  padding: 10px 0;
+  text-decoration: none;
+  text-shadow: none;
+  border-radius: 1px;
+  box-shadow: none;
+  transition: 0.25s;
+  display: block;
+  width: 150px;
+  margin: 0 auto;
+}
+
+.btn:hover {
+  background-color: #26a69a;
+}
