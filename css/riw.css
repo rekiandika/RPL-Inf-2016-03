@@ -6,6 +6,7 @@ box-sizing: border-box;
 	outline: none;
 }
 body {
+background-color: #009688;
 font-family: Arial;
 padding: 40px;
 }
@@ -29,11 +30,11 @@ text-align: center;
 
 .btn {
   border: 5px solid transparent;
-  background: #009688;
+  background: #ffffff;
   color: #000000;
   font-size: 16px;
   font-family: Arial Black;
-  line-height: 20px;
+  line-height: 50px;
   padding: 10px 0;
   text-decoration: none;
   text-shadow: none;
@@ -41,7 +42,7 @@ text-align: center;
   box-shadow: none;
   transition: 0.25s;
   display: block;
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
 }
 

@@ -4,102 +4,103 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>L300KU</title>  
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <script src="../js/jQuery-2.2.0.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jQuery-2.2.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>  
+    <script type="text/javascript">
+      function konfirmasi(){
+        window.location="konfirmasi.html";
+      }
+    </script>
   </head>
 
   <body>
     <div id="konten">
       <div id="isi">
-         <img class="hamburger" src="../images/menu.png" alt="L300KU" height="30" width="30">
+         <img class="hamburger" src="images/menu.png" alt="L300KU" height="30" width="30">
          <div id="info"><a href="info.html"><i class="fa fa-bell-o" aria-hidden="true"></i></a></div>
          <a href="index.html"><div id="judul"> L300KU</div></a>
+
          <div id="isi-body">
             <div class="kontainer">
               <div class="mobile-holder">
                 <div class="menu">
-                  <div class="panelfoto">
-                    <img src="../images/profile.png" alt="PROFILE" height="100" width="100">
-                  </div>
-                  <div class="panelnama">Si BOY</div>
-                  <a href="profil.html"><div class="btn-menu">PROFIL</div></a>
-                  <a href="riwayat.html"><div class="btn-menu">RIWAYAT PEMESANAN</div></a>
-                  <a href="faq.html"><div class="btn-menu">FAQ</div></a>
-                  <a href="contact.html"><div class="btn-menu">CONTACT US</div></a>
-                  <a href="../index.html"><div class="btn-menu">LOGOUT</div></a>
+                <a href="login.html"><div class="btn-menu">LOGIN</div></a>
+                <a href="signup.html"><div class="btn-menu">SIGNUP</div></a>
+                <a href="faq.html"><div class="btn-menu">FAQ</div></a>
+                <a href="contact.html"><div class="btn-menu">CONTACT US</div></a>
                 </div>
                 <div class="page-body">
                     <br>
-                    <center><h5>KONFIRMASI PEMBAYARAN</h5></center>
-                    <table style="margin-left: 5px">
+                    <center><h4>Sign Up</h4></center>
+                    <table style="margin-left: 10px">
                       <form action="" method="post" role="form">
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">NAMA</span></td>
+                              <td><span class="form-label">Nama</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <input type="text" class="form-control" placeholder="Nama Lengkap" aria-describedby="sizing-addon3">
+                                  <input type="text" class="form-control" placeholder="Masukkan Nama" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">TANGGAL</span></td>
+                              <td><span class="form-label">Tgl Lahir</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <input type="date" class="form-control" placeholder="Tanggal Pengiriman" aria-describedby="sizing-addon3">
+                                  <input type="text" class="form-control" placeholder="Tanggal Lahir" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">NO.REK PENGIRIM </span></td>
+                              <td><span class="form-label">Alamat</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <input type="text" class="form-control" placeholder="No. Rek. Pengirim" aria-describedby="sizing-addon3">
+                                  <input type="date" class="form-control" placeholder="alamat" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">NO.REK TUJUAN </span></td>
+                              <td><span class="form-label">Nomor Hp</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <input type="text" class="form-control" placeholder="No. Rek. Tujuan" aria-describedby="sizing-addon3">
+                                  <input type="text" class="form-control" placeholder="Nomor Hp" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">JUMLAH UANG</span></td>
+                              <td><span class="form-label">Username</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <input type="text" class="form-control" placeholder="Jumlah Uang Dikirim" aria-describedby="sizing-addon3">
+                                  <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                           <div id="form-login-username" class="input-group">
                             <tr>
-                              <td><span class="form-label">KETERANGAN </span></td>
+                              <td><span class="form-label">Password</span></td>
                               <td>
                                 <div class="input-group input-group-sm">
-                                  <textarea class="form-control" placeholder="Keterangan" aria-describedby="sizing-addon3" style="height: 50px;"></textarea>
+                                  <input type="text" class="form-control" placeholder="Password" aria-describedby="sizing-addon3">
                                 </div>
                               </td>
                             </tr>
                           </div>
                       </form>
                     </table>
-                    <br>
-                  <a href="statuspemesanan.html"><div class="btn-akun">KIRIM</div></a>
+                  <br>
+                  <a href="login.html"><div class="btn-akun">SIGNUP</div></a>
                 </div>
               </div>
             </div>
@@ -107,9 +108,9 @@
       </div>
       <div id="btn-hp">
         <a class="set" href="#"><i class="fa fa-reorder" aria-hidden="true"></i></a>
-        <a class="back" href="riwayat.html"><i class="fa fa-reply" aria-hidden="true"></i></a>
+        <a class="back" href="#"><i class="fa fa-reply" aria-hidden="true"></i></a>
       </div>
     </div>
-    <script src="../js/index.js"></script
+    <script src="js/index.js"></script
   </body>
 </html>
